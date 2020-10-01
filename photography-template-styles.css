@@ -1,0 +1,981 @@
+/********************************
+
+
+
+~~~~~~~~PHOTOGRAPHY TEMPLATE STYLES~~~~~~~~
+
+
+
+*********************************/
+
+
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   HEADER STYLES
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+#photography-template-hm-hero {
+  width: 100%;
+  height: 700px;
+  position: relative;
+  background-size: cover!important;
+  color: #fff;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+#photography-template-hm-hero::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+#photography-template-hm-hero .hero-content {
+  position: absolute;
+  bottom: 8em;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 1;
+}
+
+#photography-template-hm-hero .hero-pre-text {
+  display: block;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 7px;
+}
+
+#photography-template-hm-hero .hero-heading {
+  font-size: 69px;
+  text-transform: uppercase;
+  letter-spacing: 16px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+#photography-template-hm-hero .hero-sub-text {
+  display: block;
+  font-size: 23px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: 1em;
+  font-weight: 300;
+}
+
+#photography-template-hm-hero .btn {
+  font-size: 17px;
+  text-transform: uppercase;
+  padding: 12px;
+}
+
+#photography-template-hm-hero .btn.btn-contact {
+  border: solid 2px #fff;
+  color: #fff;
+}
+
+#photography-template-hm-hero .btn.btn-contact:hover {
+  background-color: #fff;
+  color: black;
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    ABOUT US STYLES
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+#photography-template-about-us {
+  position: relative;
+  width: 100%;
+  padding: 4em 0;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+#photography-template-about-us::after {
+  content: "";
+  position: absolute;
+  width: 45%;
+  height: 100%;
+  background-color: rgba(219, 218, 215, 0.37);
+  top: 0;
+  right: 0;
+}
+
+#photography-template-about-us .about-us-content {
+  position: relative;
+  top: 2em;
+}
+
+#photography-template-about-us .about-us-content .small-about-text {
+  display: block;
+  color: #b9a893;
+  font-weight: 700;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 2em;
+}
+
+#photography-template-about-us .about-us-content h2 {
+  color: #555;
+  font-weight: 700;
+  font-size: 32px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+#photography-template-about-us .about-us-content h2::after {
+  content: "";
+  display: block;
+  position: relative;
+  top: 10px;
+  width: 70%;
+  height: 1px;
+  background: #555;
+}
+
+#photography-template-about-us .about-us-content .quote {
+  display: block;
+  font-size: 22px;
+  margin: 2em 0;
+  font-style: italic;
+  color: #555;
+}
+
+#photography-template-about-us .about-us-content p {
+  font-weight: 300;
+  color: #bbb;
+  line-height: 44px;
+  font-size: 24px;
+}
+
+#photography-template-about-us img{
+  width: 350px;
+  z-index: 1;
+  position: relative;
+}
+
+#photography-template-about-us .btn {
+  font-size: 17px;
+  text-transform: uppercase;
+  padding: 12px;
+}
+
+#photography-template-about-us .btn.btn-contact {
+  border: solid 1px #555;
+  color: #555;
+  border-radius: 0px;
+  letter-spacing: 5px;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 14px 34px;
+}
+
+#photography-template-about-us .btn.btn-contact:hover {
+  background-color: #555;
+  color: #fff;
+}
+
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    OUR WORK STYLES
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+#photography-template-our-work {
+  position: relative;
+  width: 100%;
+  padding: 4em 0;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+#photography-template-our-work::after {
+  content: "";
+  position: absolute;
+  width: 45%;
+  height: 100%;
+  background-color: rgba(219, 218, 215, 0.37);
+  top: 0;
+  left: 0;
+}
+
+#photography-template-our-work .our-work-content {
+  position: relative;
+  z-index: 1;
+}
+
+
+#photography-template-our-work .our-work-content .quote {
+  display: block;
+  font-size: 25px;
+  margin: 2em 0;
+  font-style: italic;
+  color: #555;
+}
+
+#photography-template-our-work .our-work-content .small-work-text {
+  display: block;
+  color: #b9a893;
+  font-weight: 700;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 2em;
+}
+
+#photography-template-our-work .our-work-services {
+  margin: 0;
+  padding: 0;
+  color: #555;
+}
+
+#photography-template-our-work .our-work-services li {
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  list-style: none;
+  margin-bottom: 1.5em;
+}
+
+#photography-template-our-work .our-work-services li::after  {
+  content: "";
+  display: block;
+  position: relative;
+  top: 10px;
+  width: 100%;
+  height: 1px;
+  background: #555;
+  opacity: 0;
+}
+
+#photography-template-our-work .our-work-services li:hover::after {
+  opacity: 1;
+}
+
+
+#photography-template-our-work .our-work-services li span {
+  font-size: 13px;
+  display: inline-block;
+  margin-right: 1em;
+  letter-spacing: 0px;
+}
+
+
+#photography-template-our-work .our-work-image-1 {
+  position: relative;
+  z-index: 1;
+}
+
+
+#photography-template-our-work .our-work-two-images {
+  display: flex;
+  height: 100%;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+}
+
+
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    GALLERY STYLES
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+#photography-template-portfolio {
+  position: relative;
+  width: 100%;
+  padding: 4em 0;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+#photography-template-portfolio h2 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  color: #555;
+  padding: 4em 0;
+  text-transform: uppercase;
+}
+
+#photography-template-portfolio .slider-img {
+  padding: 0 1em;
+  position: relative;
+}
+
+#photography-template-portfolio .gallery-image-label {
+  position: absolute;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  z-index: 1;
+  bottom: 0;
+  display: block;
+  width: 94.9%;
+  padding: 2em;
+  font-weight: 700;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.63), rgba(0, 0, 0, 0.47), rgba(0, 0, 0, 0));
+}
+
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    TESTIMONIAL STYLES
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+#photography-template-testimonials {
+  position: relative;
+  width: 100%;
+  padding: 4em 10em 7em;
+  font-family: 'Josefin Sans', sans-serif;
+  background-size: cover!important;
+  background-attachment: fixed!important;
+}
+
+#photography-template-testimonials::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+#photography-template-testimonials h2 {
+  text-align: center;
+  color: #b9a893;
+  font-weight: 700;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 2em 0 1em;
+  text-transform: uppercase;
+  z-index: 1;
+}
+
+#photography-template-testimonials .slider {
+  text-align: center;
+  z-index: 1;
+  padding: 4em;
+  color: #fff;
+}
+
+#photography-template-testimonials .testimonial-main {
+  font-size: 25px;
+  font-weight: 300;
+  padding: 0 4em;
+}
+
+#photography-template-testimonials .testimonial-author {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 4px;
+}
+
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    CONTACT STYLES
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+
+
+
+#photography-template-contact {
+  padding: 1em 0 4em;
+  font-family: 'Josefin Sans', sans-serif;
+  background: linear-gradient(to top, #7373735c, #fff0);
+}
+
+#photography-template-contact h2 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  color: #555;
+  padding: 4em 0;
+  text-transform: uppercase;
+}
+
+#photography-template-contact input {
+  font-family: 'Josefin Sans', sans-serif;
+  width: 100%;
+  padding: 1em;
+  margin: 0 0 1em;
+  border: none;
+  border-radius: 0;
+  border-bottom: solid 1px #ccc;
+  background-color: rgba(255, 255, 255, 0);
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+#photography-template-contact textarea {
+  height: 100px;
+  font-family: 'Josefin Sans', sans-serif;
+  width: 100%;
+  padding: 1em;
+  margin: 0 0 1em;
+  border: none;
+  border-radius: 0;
+  border-bottom: solid 1px #ccc;
+  background-color: rgba(255, 255, 255, 0);
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+#photography-template-contact .btn {
+  font-size: 17px;
+  text-transform: uppercase;
+  padding: 12px;
+}
+
+#photography-template-contact .btn.btn-contact {
+  border: solid 1px #555;
+  color: #555;
+  margin: 14px;
+  border-radius: 0px;
+  letter-spacing: 5px;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 14px 34px;
+}
+
+#photography-template-contact .btn.btn-contact:hover {
+  background-color: #555;
+  color: #fff;
+}
+
+#photography-template-contact .contact-info {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+#photography-template-contact .contact-info span {
+  font-size: 40px;
+  margin: 0 1em 1em 0;
+}
+
+#photography-template-contact .contact-social-follow {
+  color: #b9a893;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 2em 0 1em;
+  text-transform: uppercase;
+}
+
+#photography-template-contact .fa-facebook-f:hover {
+  cursor: pointer;
+  color: #3b5998;
+}
+
+#photography-template-contact .fa-twitter:hover {
+  cursor: pointer;
+  color: #1DA1F2;
+}
+
+#photography-template-contact .fa-instagram:hover {
+  cursor: pointer;
+  color: #e1306c;
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    MOBILE STYLES
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+@media only screen and  (max-width: 1000px) {
+
+  #photography-template-testimonials {
+    padding: 0;
+    background-attachment: local!important;
+  }
+
+  #photography-template-testimonials h2 {
+    padding: 6em 0 2em;
+  }
+
+  #photography-template-testimonials::after  {
+    display: none;
+  }
+
+  #photography-template-testimonials .testimonial-main {
+    padding: 0;
+    font-size: 18px;
+  }
+
+  #photography-template-testimonials .testimonial-author {
+    font-size: 10px;
+  }
+
+}
+
+@media only screen and  (max-width: 768px) {
+
+
+  #photography-template-hm-hero {
+    height: 500px;
+  }
+
+  #photography-template-hm-hero .hero-content {
+    text-align: center;
+  }
+
+  #photography-template-hm-hero .hero-heading {
+    font-size: 7vw;
+    letter-spacing: 5px;
+  }
+
+  #photography-template-hm-hero .hero-sub-text {
+    font-size: 5vw;
+    letter-spacing: 1px;
+  }
+
+  #photography-template-hm-hero .btn {
+    padding: 7px;
+  }
+
+  #photography-template-about-us {
+    text-align: center;
+  }
+
+  #photography-template-about-us::after {
+    display: none;
+  }
+
+  #photography-template-about-us .about-us-content h2::after {
+    width: 100%;
+  }
+
+  #photography-template-about-us .about-us-content {
+    top: 0;
+    margin: 2em 0;
+  }
+
+  #photography-template-our-work {
+    text-align: center;
+  }
+
+  #photography-template-our-work::after {
+    display: none;
+  }
+
+  #photography-template-our-work .our-work-image-1,
+  #photography-template-our-work .our-work-image-2,
+  #photography-template-our-work .our-work-image-3 {
+    display: none;
+  }
+
+  #photography-template-portfolio {
+    padding: 0 0 4em;
+  }
+
+  #photography-template-portfolio h2 {
+    padding: 0 0 2em;
+  }
+
+  #photography-template-portfolio .gallery-image-label {
+    display: none;
+  }
+
+  #photography-template-contact {
+    text-align: center;
+  }
+
+  #photography-template-contact h2 {
+    padding: 2em 0;
+    font-size: 24px;
+  }
+
+  #photography-template-contact .fa-instagram {
+    margin: 0!important;
+  }
+
+  #photography-template-contact .contact-form .row {
+    justify-content: center;
+  }
+}
+
+@media only screen and  (max-width: 450px) {
+
+  #photography-template-hm-hero .hero-content {
+    padding: 1em;
+  }
+
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   MODAL STYLES
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.modal {
+  display: none;
+  font-family: 'Josefin Sans', sans-serif;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+  text-align: center;
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 4em 2em 2em;
+  border: 1px solid #888;
+  width: 50%;
+}
+
+.modal-content .close {
+  color: #333;
+  float: right;
+  font-size: 50px;
+  font-weight: lighter;
+  position: absolute;
+  top: 0;
+  right: 20px;
+}
+
+.modal-content .close:hover {
+  cursor: pointer;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   SLICK SLIDER CUSTOM STYLES
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+#photography-template-testimonials .slick-next::before, .slick-prev::after {
+    font-family: slick, 'Josefin Sans', sans-serif;
+}
+
+#photography-template-testimonials .slick-prev:hover::after,
+#photography-template-testimonials .slick-next:hover::before,
+#photography-template-testimonials .slick-next:hover::after {
+  opacity: 1;
+}
+
+#photography-template-testimonials .slick-prev::after {
+  content: 'Prev';
+  font-size: 30px;
+  line-height: 1px;
+  opacity: .75;
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0 15px;
+  border-right: solid 1px #fff;
+  padding: 1em 1em 1em 0;
+}
+
+
+#photography-template-testimonials .slick-next::before {
+    content: 'Next';
+    font-size: 30px;
+    line-height: 1;
+    opacity: .75;
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 0 15px 0 0;
+    border-left: solid 1px #fff;
+    padding: 1em 0em 1em 1em;
+}
+
+#photography-template-testimonials .slick-prev {
+  left: -60px;
+}
+
+#photography-template-testimonials .slick-next {
+  right: 44px;
+  top: 46.5%;
+}
+
+#photography-template-testimonials .slick-next::after {
+  content: '→';
+  font-family: slick;
+  font-size: 20px;
+  line-height: 1;
+  opacity: .75;
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
